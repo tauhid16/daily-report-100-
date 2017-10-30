@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    margin: 0 0 15px;color:#222;
+}
+h2 {
+    font-size:32px
+ }
+
+
+body {
+      font-family: 'Open Sans', sans-serif;
+      color:#565656
+}
+a:hover { text-decoration: none }
+
+.blog-box-bg-1{background-image: url(../img/blog-box-1.jpg)}
+.blog-box-bg-2{background-image: url(../img/blog-box-2.jpg)}
+.blog-box-bg-3{background-image: url(../img/blog-box-3.jpg)}
+
+
+
+
+section.section-padding{padding:100px 0;}
+
+.section-title{
+    color:#565656;front-size:17px;
+    margin-bottom:70px;
+    text-align:center  
+} 
+
+.section-title h2{
+    color:#222;
+}
+
+h2{
+    font-size:32px
+}
+.blog-box-bg{
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    border:1px solid #fdaf67;
+    height:200px
+}
+.blog-box-bg {
+    border-bottom: 0 solid
+}
+.blog-box-content{
+    border:1 px solid #f4f4f4;   
+
+    padding:20px;
+    transition:.3s
+}
+.blog-meta i.fa {
+    color:#fdaf67
+}
+.blog-meta a{color:#565656}
+
+.blog-meta{
+    font-size: 14px
+}
+.blog-meta span{
+    padding-right: 10px
+}
+.blog-meta span:last-child{
+    margin-right: 0 px
+}
+.blog-box-content h3{
+    font-size: 20px;margin-top: 15px
+}
+
+.blog-redmore-btn{
+  
+    background:#FF9800 ;
+    color:#fff;
+    padding:8px 20px
+    ;display:inline-block;
+    text-transform:uppercase;font-weight:700;
+    font-size:14px;
+    margin-top:10px;
+    transition:.2s 
+}
+
+    
+   
+      
+     }.blog-redmore-btn:hover{
+    background: #333 none repeat scroll 0 0
+    color:#fff;
+}
+.single-blog-box:hover.blog-box-content{
+    border-color:fd8e2e
+ }   
+
