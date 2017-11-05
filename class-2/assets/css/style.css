@@ -1,0 +1,65 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {font-family: 'Lato', sans-serif;
+       padding:150px  
+
+}
+a:hover { text-decoration: none }
+.section padding{padding:80px 0;}
+.blue-quote-form{background:#2ab6fb none repeat scroll 0 0;
+ margin-top:-50px;padding-top:25px;
+ max-width:500px;padding-left:70px;
+ padding-right:125px;
+ padding-bottom:50px;
+}
+.blue-quote-form h3{font-size:20px;margin-left:-90px;
+    text-transform: uppercase;
+    color:#fff;text-align:center;
+    position:relative;padding-bottom:15px
+}
+   
+.blue-quote-form h3:before{bottom:0;height:1px;
+    left:50%;
+    position:absolute;width:130px;content:"";
+    background:#fff;margin-left:-65px
+} 
+
+
+.blue-quote-form h3:after{position: absolute;left:50%;
+    height:13px;width:13px;content:"" ;
+    border:2px solid #fff;bottom:-6.5px;
+    margin-left:-6.5px;border-radius: 50%}
+.blue-quote-form input,.blue-quote-form textarea{border:none;background:none;
+    border-bottom:1px solid #8fdafc;
+    color:#fff;width:100%;
+    padding:10px 0 
+     }
+.blue-quote-form textarea{height:100px}
+.blue-form-submit{text-align:center;margin-top:25px }
+.blue-form-submit button {background:#fff;border:none;
+    color:#2ab6fb;padding:10px;border-radius:5px;text-transform:uppercase}
