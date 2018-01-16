@@ -1,0 +1,58 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+}
+body {font-family: 'Source Serif Pro', serif;
+font-weight: 300;
+   font-size:17px;line-height: 1.7;
+
+}
+a:hover { text-decoration: none }
+.header-top-area .col-md-5{padding-left:40px}
+.header-top-area{background:#218AE6;padding: 10px}
+.header-top-area .raw{color: white;}
+.header-top-area a{color: white}
+.header-top-area .col-md-7{padding-left:290px}
+.header-top-area i{padding-left:22px;padding-right:10px}
+.header-area{}
+.header-area h3{font-weight:700;padding-top:24px }
+.header-area h3 a{color:#222222;padding-left:50px; }
+.header-area ul{margin:0;padding:0;list-style:none}
+.header-area ul li{display: inline-block;padding: 15px;padding-left: 20px;}
+.header-area li a{display: block;color: #838383;
+    padding: 10px;padding-left: 5px}
+.header-area li a:hover{color:#218AE6 }
+.homepage-slider{background:#218AE6 }
+.single-homepage-slide{padding:100px}
+.single-homepage-slide h2{color: white;font-size: 40px}
+.single-homepage-slide p{color: white;font-size: 17px}
+.slide-btn{color: #333021;padding: 10px;
+    background:#F9CF25;font-weight:400;
+    text-transform:uppercase;
+    font-size:15px;
+    display:inline-block;border-radius:20px;
+    margin-top:10px;margin-left: 20px}
+.slide-btn .fa-long-arrow-right{padding: 10px}
