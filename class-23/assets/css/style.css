@@ -1,0 +1,48 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+.section-header{text-align: center;padding: 70px}
+.section-header h2{color: #353535;font-weight: 550;font-size:38px;}
+.section-header p{font-size: 15px;color: #7B7B7B}
+.single-service-box{border: 2px solid greenyellow }
+.single-service-box .bg-1{background: url(../img/bgt_1.jpg);width:320px;height:150px}
+.single-service-box .bg-1 h2{background: #F97230;color: white;font-size: 20px;text-align:center;font-weight:700;padding:10px;
+  position:absolute;left:12%;width:70%;margin:0;top:125px}
+.single-service-box .bg-2{background: url(../img/bgt_2.jpg);width:320px;height:150px}
+.single-service-box .bg-2 h2{background: #F97230;color: white;font-size: 20px;text-align:center;font-weight:700;padding:10px;
+  position:absolute;left:12%;width:70%;margin:0;top:125px}
+.single-service-box .bg-3{background: url(../img/bgt_3.jpg);width:320px;height:150px}
+.single-service-box .bg-3 h2{background: #F97230;color: white;font-size: 20px;text-align:center;font-weight:700;padding:10px;
+  position:absolute;left:12%;width:70%;margin:0;top:125px}
+.service-box-contant{padding:45px;font-size:15px;line-height:25px;font-weight:600;padding-top: 52px;padding-bottom: 10px}
+.rea-more {color: black;padding-left:90px;display:inline-block;font-size:18px;font-weight:700;margin-bottom: 20px}
+
+
+
