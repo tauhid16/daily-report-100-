@@ -1,0 +1,45 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.mainmenu ul{margin: 0;padding: 0px;list-style: none;text-align: right;padding-right:100px}
+.mainmenu li{display: inline-block;}
+.mainmenu li a{display: block;padding: 15px;font-size: 16px;padding-left: 20px;right:0px;color: white}
+.mainmenu li a:hover{color:#FF9800 }
+.single-slider-item{background: #263238;font-size: 16px;line-height: 32px;height:600px}
+
+.slide-text h2{color:#9E7E2B;font-weight: 300;font-size: 40px;line-height: 55px}
+.slide-text p{color: white;}
+.border-btn{color: #FF9800;padding:10px 30px;border: 1px solid white;display: inline-block;border-radius: 10px;margin-top: 25px}
+
+.slide-text{padding: 180px 0;padding-top: 200px}
+.slide-img{position: absolute;right:120px;max-width:296px;margin: 90px;}
+.header-area{position: absolute;top: 0;left: 0;width: 100%;padding: 20px 0;z-index: 9;}
+.logo{padding-left:100px;padding-top: 0px}
