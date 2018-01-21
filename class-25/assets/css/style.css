@@ -1,0 +1,68 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {color: #565;line-height: 1.8;font-size: 15px;
+
+}
+a:hover { text-decoration: none }
+.section-title h2{text-align: center;padding:50px 0}
+.section-title h2:before {bottom:46px;height:2px;
+    left:47%;
+    position:absolute;width:30px;content:"";
+    background:green;
+    margin-left:-30px
+} 
+.section-title h2:after{position: absolute;left:50%;
+    height:3px;width:20px;content:"" ;
+    background:black ;bottom:46px;
+    margin-left:-25px;}
+.single-feature-item{margin-bottom: 40px;}
+.border-img{background-image: url(../img/bgt_1.jpg);
+ height: 127px;width: 110px;
+ position: relative;
+ border: 1px solid#fff;padding:50px}
+.border-img:after{background: green;position: absolute;
+    right: -4px;
+    width: 100%;content:"";
+    height: 100%;z-index:-1;
+    bottom:-4px; }
+.single-feature-item h3{border-bottom: 1px dashed #6aaf08;
+    padding-bottom: 30px;
+    margin-bottom: 20px;padding-left: 5px}
+.single-feature-item p{font-size: 14px;
+    margin-bottom:  25px;
+    padding-left: 5px}
+.big-feature-border-img{height:360px;width: 480px;
+    background-image:url(../img/sider1.jpg);
+    margin-left: 90px;position:relative}
+
+.big-feature-border-img:before{position: absolute;
+    left:-10px;top:10px;
+    width: 100%;content:"";
+    height: 100%;
+    background: green;z-index: -1} 
+
