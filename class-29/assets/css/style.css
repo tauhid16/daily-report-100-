@@ -1,0 +1,55 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.project-bg-1{background-image: url(../img/project-bg-1.jpg);}
+.project-bg-2{background-image: url(../img/project-bg-2.jpg);}
+.project-bg-3{background-image: url(../img/project-bg-3.jpg);}
+.project-bg-4{background-image: url(../img/project-bg-4.jpg);}
+.project-bg-5{background-image: url(../img/project-bg-5.jpg);}
+.project-bg-6{background-image: url(../img/project-bg-6.jpg);}
+.project-bg-7{background-image: url(../img/project-bg-7.jpg);}
+.project-bg-8{background-image: url(../img/project-bg-8.jpg);}
+.project-bg-9{background-image: url(../img/project-bg-9.jpg);}
+.section-padding{padding: 50px;}
+.projects-titles{margin: 0 0 50px;padding: 0;list-style: none;}
+.projects-titles li{display: inline-block;padding-right: 10px;}
+.projects-titles li a{color: black;}
+.single-project-item a{color: #00AFAB;}
+.single-project-item span{color: #00AFAB;}
+.single-project-item{height: 200px; background-size: cover; background-position: center; background-color: #ddd; margin-bottom:40px;position:relative;z-index:2; }
+
+.row.project-list{padding-left:-7.5px;padding-right:-7.5px;}
+.project-hover{position: relative;height: 100%;width: 100%; z-index: 2;opacity: 0;transition: .3s;}
+.project-hover:after{position: absolute;left: 0;top: 0;height: 100%;width: 100%;content: ""; background:black;z-index:-1;opacity:.6;}
+.project-hover a{position: absolute;right: 30px;top:20px;font-size:20px;}
+.project-hover h4{font-weight: 400;color: white;margin: 0;position: absolute;bottom: 30px;left:30px}
+.project-hover h4 span{display: block;font-size: 90%;margin-top: 10px;}
+.single-project-item .project-hover:hover{opacity: 1;}
