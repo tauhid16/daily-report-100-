@@ -1,0 +1,46 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {color: #878787;
+
+}
+a:hover { text-decoration: none ;}
+.section-padding{padding: 80px 0;}
+.bigger-text h1{color: #313131;font-size:45px;font-weight:400;line-height:60px;margin-bottom:40px;}
+.bigger-text{font-size: 18px;line-height: 1.8;text-align: center;padding:0 60px;}
+.boxed-btn{background: blue;color:white;padding:15px 40px;display:inline-block;
+    text-transform:uppercase;
+    border-radius:50px;font-size:15px;}
+.bigger-text .boxed-btn{margin-top: 30px;}
+.shadow-gallery{position: relative;}
+.shadow-gallery img:nth-child(2) {position: absolute; right:0;bottom:0;z-index: 2;width: 50%;left: 280px;top:40px;} 
+.shadow-gallery img:nth-child(3) {position: absolute; right:0;bottom:0;z-index: 3;width: 70%;right: auto;left: -70px;bottom: -110px;}
+.shadow-gallery img{position: relative;z-index: 1;width:50%;}
+
+.shadow-gallery img{box-shadow: 0 0 50px;}
+.shadow-gallery{padding-top: 100px;}
+.shadow-gallery img:nth-child(1) {top:-150px;width: 60%;height:40%; }
