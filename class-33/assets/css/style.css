@@ -1,0 +1,111 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+.fullwidth-bg-area{background-image: url(../img/section-bg-3.png);
+    margin: 50px 0 }
+.section-padding{padding: 80px 0;}
+.margin-minus{margin-top: -70px;
+    margin-bottom: -70px;
+    padding: 70px; }
+.dark-bg{background: #2b2f40;color: white;
+    padding:90px;width: 900px;
+    margin-left: 120px;
+    height: 500px }
+.boxed-content{
+    margin-top: -60px}
+
+.boxed-content h2{font-size:40px;
+    font-weight: 900;
+    margin-top:60px;
+    margin-bottom:40px;}
+.boxed-content p{font-size: 15px;
+    width:500px;
+    font-weight:200;}
+.author-name  {font-size: 23px;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 29px;margin-bottom: 28px} 
+.author-name span{color:#9B9B9B ;font-size: 19px;
+    margin-left: 15px}
+.author-name:before{position: absolute;
+    left:250px;
+    height:3px;width:30px;
+    content:"" ;
+    background:white;
+    margin-left:-230px;
+    margin-top:13px;}
+.border-btn {color: white;
+    font-size:20px;
+    margin-left: -10px;
+    border: 1px solid burlywood;
+    padding:15px;
+    border-radius: 8px;
+    position: absolute;
+    width:350px;
+    text-align:center;
+    display:inline-block;}
+.border-btn:hover{color:brown;}
+.dark-bg img{position:relative ;
+    margin-left: 500px;
+    margin-top: -270px;width: 900px;max-width: 220px;height:340px}
+.boxed-content:before{position: absolute;
+    left:-40px;
+    height:50px;
+    width:50px;content:"" ;
+   top: -20px;
+   border-left: 1px solid #fff;
+   border-top:  1px solid white
+    ;}
+.boxed-content:after{position: absolute;
+    right:-80px;
+    height:50px;
+    width:50px;content:"" ;
+   bottom:  90px;
+   border-right:  1px solid #fff;
+   border-bottom:   1px solid white
+    ;}
+.header-area {text-align: center;}
+.header-area h2{color: navy;
+    font-size:35px;font-weight:900;}
+.header-area p{font-size: 15px;
+    width:700px;
+    margin-left: 220px;
+    line-height: 1.9;
+    color:green; }
+.promo-area h2{color: navy;
+    font-size:35px;
+    font-weight:900}
+.promo-area p{font-size: 15px;
+    width:700px;
+    margin-left: 220px;
+    line-height: 1.9;color:green;}
+.promo-area{text-align: center;}
