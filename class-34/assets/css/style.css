@@ -1,0 +1,72 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {font-family: roboto,
+
+}
+a:hover { text-decoration: none }
+.single-slide-item{background-image: url(../img/section-bg-1-.png);}
+.single-slide-item{background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height:590px;
+    margin-bottom: 200px;
+    position:relative;}
+.slide-text-area{position: absolute;
+    left: 0;
+    bottom: 0;width: 100%;}
+.slide-text{background: #2185c5;
+    color:white;padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right:150px;
+    font-size:20px;position: relative;height:400px; width:800px }
+.slide-text h2{font-size: 45px;
+    font-family: roboto;
+    }
+.slide-text p{
+    font-size: 22px;
+     color: wheat;font-family: roboto;}
+ .boxed-btn{color: white;
+    display:inline-block;
+    text-transform:uppercase;margin-top:40px}
+.slide-text a{
+    border:1px solid black;
+    padding: 20px 40px;
+    background: black;font-size: 17px;  }
+.slide-text:before{position: absolute;
+    left: -1000%;
+    top: 0;height: 100%;
+    width: 1000%;
+    content: "";background: #2185c5;}
+.slide-text:after{position: absolute;
+    right: -10px;
+    top:80px;background: #2185c5;
+    height:20px;
+    width: 20px;
+    content:"";
+    transform: rotate(45deg);}
+.homepage-slides{padding: 70px 0}
