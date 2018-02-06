@@ -1,0 +1,102 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+.single-slide-item{background-image: url(../img/images.jpg);}
+.logo img{max-width: 100px;float: left;position:absolute;left:0;top:0}
+
+.logo span{display: block;font-size: 80%;font-style: italic;font-weight: 300;}
+.logo{font-size: 20px;font-weight:700;position: relative;padding-left: 120px;padding-top:20px;padding-bottom: 20px;}
+.right-contact-box{font-size: 15px;position: relative;display: inline-block;padding-left:30px;text-align:left;margin-left: 40px;margin-top: 15px;font-weight: 600}
+.right-contact-box i.fa{position: absolute;left: 0;top: 2px;font-size: 25px;}
+.slide-text h1{font-size: 25px;width: 350px;line-height: 1.5;font-weight:900}
+.right-contact-b/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+.single-slide-item{background-image: url(../img/images.jpg);}
+.logo img{max-width: 100px;float: left;position:absolute;left:0;top:0}
+
+.logo span{display: block;font-size: 80%;font-style: italic;font-weight: 300;}
+.logo{font-size: 20px;font-weight:700;position: relative;padding-left: 120px;padding-top:20px;padding-bottom: 20px;}
+.right-contact-box{font-size: 15px;position: relative;display: inline-block;padding-left:30px;text-align:left;margin-left: 40px;margin-top: 15px;font-weight: 600}
+.right-contact-box i.fa{position: absolute;left: 0;top: 2px;font-size: 25px;}
+.slide-text h1{font-size: 25px;width: 350px;line-height: 1.5;font-weight:900}
+.right-contact-box a{color: white;}
+.slide-text p{font-size: 15px;width: 550px;line-height: 1.8;margin-bottom:40px; }
+.boxed-btn{background: #ef800d;color: white;padding: 13px 30px;display: inline-block;border-radius:5px;  }
+.header-area{padding: 30px 0;position: absolute;left: 0;top: 0;width: 100%;z-index: 99;}
+.single-slide-item{padding-top: 200px;background-size:cover;background-position:center;background-color:#ddd;}
+.slide-text{position: relative;z-index: 1;padding:50px;z-index: 1;padding-right: 100px;padding-top: 51px}
+.slide-text:after{position: absolute;left: 0;top: 0;width: 100%;height: 100%;content: "";background: white;z-index:-1;opacity: .5}
+.logo span{color: white;}
+.logo a{color: white;}
+.right-contact-box {color: white}
+
+ox a{color: white;}
+.slide-text p{font-size: 15px;width: 550px;line-height: 1.8;margin-bottom:40px; }
+.boxed-btn{background: #ef800d;color: white;padding: 13px 30px;display: inline-block;border-radius:5px;  }
+.header-area{padding: 30px 0;position: absolute;left: 0;top: 0;width: 100%;z-index: 99;}
+.single-slide-item{padding-top: 200px;background-size:cover;background-position:center;background-color:#ddd;}
+.slide-text{position: relative;z-index: 1;padding:50px;z-index: 1;padding-right: 100px;padding-top: 51px}
+.slide-text:after{position: absolute;left: 0;top: 0;width: 100%;height: 100%;content: "";background: white;z-index:-1;opacity: .5}
+.logo span{color: white;}
+.logo a{color: white;}
+.right-contact-box {color: white}
+
