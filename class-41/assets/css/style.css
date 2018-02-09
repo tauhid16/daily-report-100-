@@ -1,0 +1,48 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500|Oleo+Script|Oswald:400,500,600,700&subset=latin-ext');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+body {font-family: 'Montserrat', sans-serif;
+      font-weight: 700;   
+
+}
+a:hover { text-decoration: none }
+.section-padding{background:#EBEAF0;padding: 80px;}
+.colored-bg{background: #76D3DA;padding: 95px;color:white;position:relative; }
+
+.top-ticker-text:after{position: absolute;top:60px;left:2px;background:white;content: "";width: 22px;height: 2px;border-radius: 20px;}
+.top-ticker-text{font-size: 14px;font-weight: 550;line-height: 1.6;position: relative;margin-bottom:90px;}
+.slide-text h1{width: 255px;text-transform: uppercase;line-height: 1.4;font-weight: 500;margin-bottom: 30px;}
+.slide-text p{font-size: 15px;width:335px;font-weight:800;}
+
+.box-btn{background:yellow;padding:10px 30px;border-radius: 20px;color: black;font-size: 16px;font-weight: 700;box-shadow:0 10px 50px #f5f45e;display: inline-block }
+.lady-img{position: absolute;right: 0;bottom: 0; }
+.box-btn{margin-top: 30px}
