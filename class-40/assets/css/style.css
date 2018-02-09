@@ -1,0 +1,81 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none; }
+.section-padding {background-image: url(../img/section-bg-2.png);}
+.section-bg-1{background-size: cover;
+    background-position: center top;
+    padding:100px 0;}
+.single-price-box{border-right:1px solid blue;
+    float:left;
+    width:250px;}
+.single-price-box:last-child{border: none;}
+.single-price-box{box-shadow:0 0 40px blue;}
+.price-box-img {display: table;width:100%;height:150px;}
+.price-box-img img{max-width: 180px;max-height: 165px;}
+.price-box-img-wrap{display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;}
+.price-box-inner{background: white;
+    padding: 30px;}
+.price-box-inner h2{color: blue;
+    position:relative;text-align:center;
+    font-weight:800;text-transform: uppercase;
+    margin-bottom: 30px }
+.price-box-inner h2:after{position: absolute;
+    left:78px;
+    height:2px;width:30px;content:"" ;
+    background:blue ;top: 40px;
+    }
+.price-box-inner ul{list-style: none;padding: 10px;
+    line-height: 2.3;font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom:30px;}
+.price-box-inner ul li{color: blue;opacity:.8;}
+.boxed-bg{border: 1px solid blue;
+    background:blue;color:white;
+    padding:10px 40px;font-size: 17px;
+    font-weight: 700;border-radius:15px;}
+.boxed-bg-active{border: 1px solid red;background:red;
+    color:white;
+    padding:10px 40px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius:15px;}
+.price-content span{color: red;
+    margin-left: 50px;}
+.price-content span{display: inline-block;position: relative;font-weight:800;font-size:35px;}
+.price-content span:before{content: "$";font-size: 24px;position: absolute;left: -15px;top:-2px;font-weight:400; }
+.price-content:after{content: "/mo";color:red;}
+
+
+
