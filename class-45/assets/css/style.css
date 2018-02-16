@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+.alignleft {
+ float:left;
+ margin-right:15px;
+}
+.alignright {
+ float:right;
+ margin-left:15px;
+}
+.aligncenter {
+ display:block;
+ margin:0 auto 15px;
+}
+a:focus,input:focus,textarea:focus,button:focus {
+ outline:0 solid
+}
+img {
+ max-width:100%;
+ height:auto;
+}
+h1,h2,h3,h4,h5,h6 {
+ margin:0 0 15px;
+ font-weight:700
+}
+body {font-size: 16px;line-height: 1.8
+ font-family:'Lato',sans-serif;color: gray;
+}
+a:hover {
+ text-decoration:none
+}
+.section-padding{padding: 80px;}
+.single-pricing-box{border: 1px solid skyblue;
+	border-radius:1px;padding: 50px;
+	margin-bottom: 50px;text-align:center;transition:.3s}
+.pricing-amount{font-size:45px;color:#14abf4;
+	font-weight:300;line-height:60px;margin-bottom:0;}
+.pricing-box-content{margin-top:30px;margin-bottom:40px;}
+.pricing-box-content ul {list-style: none;font-size: 15px;
+	color: gray;font-weight:500;margin: 0;padding: 0;} 
+.pricing-box-content li{padding-bottom:15px;line-height:1.5;}
+.box-btn{background:#14abf4;padding:15px 30px;
+	color: white;font-weight:700;
+	line-height:1.5px;text-align: center;}
+.single-pricing-box span{color:green;
+	display:block;font-size:80%;margin-top:10px} 
+.single-pricing-box h4{color:gray;font-size:20px;
+	margin-bottom: 40px;}
+.single-pricing-box-active {border: 1px solid skyblue;
+	border-radius:1px;
+	padding: 50px;
+	text-align:center;position: relative;z-index:1;
+	border-radius:0 0 5px 5px;
+	box-shadow: 0 0 40px skyblue}
+.single-pricing-box-active h4{margin-top:2px;}
+.single-pricing-box-active:before{position:absolute;left:0;top:0;
+	height:2px ;width:360px ;content: "";background: green;}
+.single-pricing-box-active span{color:green;
+	display:block;font-size:80%;margin-top:10px}
+.footer-area{text-align:center;}
+.single-pricing-box-active:hover{box-shadow: 0 0 40px green;}
+.single-pricing-box:hover{box-shadow: 0 0 40px skyblue;}
+.footer-area span{color:#14abf4;letter-spacing:2px}
+
+
+
+
+
+
+
+
+
+
+
+
+
