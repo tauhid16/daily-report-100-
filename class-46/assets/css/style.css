@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+.alignleft {
+ float:left;
+ margin-right:15px;
+}
+.alignright {
+ float:right;
+ margin-left:15px;
+}
+.aligncenter {
+ display:block;
+ margin:0 auto 15px;
+}
+a:focus,input:focus,textarea:focus,button:focus {
+ outline:0 solid
+}
+img {
+ max-width:100%;
+ height:auto;
+}
+h1,h2,h3,h4,h5,h6 {
+ margin:0 0 15px;
+ font-weight:700
+}
+body {
+ font-family:'Lato',sans-serif;
+}
+a:hover {
+ text-decoration:none
+}
+.section-padding-dark-bg{background: #343434;
+	color: #a5a5a5;
+	padding:160px 0;}
+.trailor-text{font-size: 16px;
+	line-height: 1.7;}
+.trailor-text h2{color: white;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 900;
+	line-height:1.5;
+	position:relative;}
+.trailor-text h2:after{position:absolute;
+	left:0;
+	top:99px;
+	width:20px;
+	height:3px;
+	content:"";
+	background:red;}
+.trailor-text p{font-size:15px;
+	font-weight:600;
+	margin-top:50px;
+	margin-bottom:30px;}
+.border-btn{border:1px solid red;
+	padding:10px 30px ;
+	color:white;
+	font-weight:700;
+	text-transform:uppercase;}
+.border-btn i{margin-left:20px;}
+.colored-pricing-box p{text-align:center;color:grey;opacity:.5}
+
+.colored-pricing-box{background:red;width:170px;
+	height:250px;
+	right: 150px;
+	font-size:17px;padding-top:50px ;position:absolute;text-align:center;text-transform:uppercase; 
+ }
+.colored-pricing-box h3{color:white;font-size:30px;}
+
+.trailor-info img{position:relative;z-index:1;padding-top:100px;margin-left:150px;max-width:700px;     }
+.absolute-shopping-cart{box-shadow:0 0 10px #666;background:white;
+	color:black;font-size:20px; 
+	position:absolute;top:30px;left:-25px;
+	width:40px;
+	height:40px;padding:5px; }
+.trailor-text{padding-top:50px }
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
