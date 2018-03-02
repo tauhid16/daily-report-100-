@@ -1,0 +1,73 @@
+body{color:#737678;
+	font-size:16px;
+	line-height:1.8;}
+.section-padding{padding:50px 0;  }
+.pricing-table{overflow:hidden;
+	margin-left:-90px }
+.single-pricing-box{width:33.33333%;
+	float:left;
+	box-shadow:0 0 10px #f3f3f3f3 ;
+	position:relative;
+	z-index:2;
+	margin-left:-.5%;
+	margin-right:.5%;  }
+
+.pricing-heading{background:#f9f9f9;
+	padding:30px;}
+.pricing-heading h3{color:#888888;
+	font-weight:400;
+	font-size:27px;}
+.pricing-heading h1{color:black;
+	font-size:45px;
+	font-weight:500;
+	margin-top:10px;}
+.pricing-heading h3{color:#888888;
+	font-weight:400;
+	font-size:27px;}
+.pricing-heading p{color:#888888;
+	font-weight:400;
+	font-size:18px;}
+.pricing-heading br{margin-left:-29px}
+.pricing-content ul{list-style:none;
+	margin-bottom:48px;}
+.pricing-content li{font-size:17px;
+	font-weight:570; padding:7px;}
+.pricing-content li a{color:#888888;}
+
+.border-btn a{border:1px solid red;
+	color:red;padding: 10px 15px;
+	border-radius:18px;
+	font-size:18px;
+	font-weight:700; }
+.border-btn{margin-top:-30px; }
+
+.pricing-heading{margin-top:30px;}
+.active .pricing-heading{background:red;
+	margin-top:0;
+	overflow:hidden;  }
+.active .pricing-heading h3{color: white;}
+.active .pricing-heading h1{color:white;}
+.active .pricing-heading p{color:white;
+	margin-bottom:-50px; }
+.active .pricing-content{padding: 30px 10px;}
+.active .border-btn a{background:#f91942;
+	color:white; }
+.single-pricing-box.active{position: relative;
+	z-index: 2;
+	margin-left:-.5%;
+	margin-right:-.5%;
+	width: 34.3333%;}
+.active .pricing-heading:after{content:"Featured" ;
+position: absolute;
+right:-30px;
+top: 15px;
+background:white;
+ color:red;
+ transform:rotate(45deg);
+padding:5px 60px;font-size:18px;}
+
+
+
+
+
+
