@@ -1,0 +1,42 @@
+.service-box-bg {background-image: url(../img/medical.jpg); 
+    background-size: cover;background-position: center;height: 200px }
+.service-box-bg 1{background-image: url(../medical 1.jpg);
+    background-size: cover;
+    background-position: center;height: 200px}
+.service-box-bg 2{background-image: url(../img/medical2.jpg);
+    background-size: cover;
+    background-position: center;height: 200px}
+.section-padding{padding: 20px 0;text-align: center;}
+.section-title{margin-bottom: 90px;}
+.section-title h2{text-transform: uppercase;}
+.section-title h2 span{color: skyblue;}
+.section-title p{font-size: 17px;margin-left: -30px;}
+.single-service-box{border: 1px solid skyblue;border-radius:5px;}
+.single-service-box h1{text-transform: uppercase;}
+.single-service-box:hover{background: navy;color:white;}
+.service-box-bg i {position:relative;color:white;top: 150px;
+    background:skyblue;
+    padding: 5px;
+    border-radius: 40px;
+    font-size: 40px;border: 5px solid navy  }
+.mainmenu-area ul{background-color: navy;
+    padding: 10px;
+    margin:10px;list-style: none }
+.mainmenu-area li{display: inline-block;}
+.mainmenu-area li a{color: white;display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+font-weight: 700;display: block;padding: 15px}
+.mainmenu-area li{position: relative;}
+.mainmenu-area li ul{position: absolute;
+    left:-20px;top: 73px;width:150px;z-index:2;
+    opacity: 0;
+    visibility: hidden;transition: .3s}
+.mainmenu-area li ul a{text-transform: none;
+    padding-top: 10px;padding-bottom: 10px;} 
+.mainmenu-area li ul li{display: block;}
+.mainmenu-area li:hover ul{opacity: 1;
+    visibility: visible;left:0;top:52px } 
+.mainmenu-area ul li:hover > a{background: red;
+    color: white}
+.mainmenu-area ul li >a{transition: .3s}
