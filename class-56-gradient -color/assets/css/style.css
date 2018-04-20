@@ -1,0 +1,88 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+body {/* Permalink - use to edit and share
+
+ this gradient: http://colorzilla.com/gradient-editor
+ /#1e5799+0,2989d8+5,6d8fa3+12,207cca+34,c1a0ab+52 */
+ 
+background: #1e5799; /* Old browsers */
+
+background: -moz-linear-
+(top, #1e5799 0%, #2989d8 5%, #6d8fa3 12%,
+ #207cca 34%,
+  #c1a0ab 52%); /* FF3.6-15 */
+background: -webkit-linear-gradient
+(top, #1e5799 0%,#2989d8 5%,
+    #6d8fa3 12%,
+    #207cca 34%,#c1a0ab 52%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient
+(to bottom, #1e5799 0%,
+    #2989d8 5%,
+    #6d8fa3 12%,
+    #207cca 34%,
+    #c1a0ab 52%); /* W3C, IE10+,
+     FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', 
+    endColorstr='#c1a0ab',GradientType=0 ); /* IE6-9 */
+
+}
+a:hover { text-decoration: none }
+body.theme-1{background-image: url(../img/testimonial-img.jpg);
+    background-position:center;
+    background-size:cover;   }
+html, .theme-1{height: 100%}
+.site-wrap{height: 100%;}
+.site-wrap-table{height: 100%;width: 100%;display:table;
+}
+
+.site-wrap-tablecell{display: table-cell;vertical-align:table;width:100%;position: relative; }
+.header-area{position: absolute;left: 0;top: 0;width: 100%;padding: 55px 90px}
+.hero-text{padding: 160px 0}
+.footer-area{position: absolute;bottom: 0;left: 0;width: 100%;border-top:1px solid #fff;padding: 18px;}
+.logo a{color: #252e30;}
+.mainmenu ul{list-style:none;}
+.mainmenu ul li{font-size:20px;text-align:right;display:inline-block; }
+.mainmenu ul li a{color:#252e30}
+.hero-text{width:50%;padding-left:80px;font-size:18px;color:#817c82;line-height:1.8;}
+.hero-text h2{color:#252e30;font-size:30px;width:390px;line-height:1.7; margin-bottom:28px }
+.hero-text p{font-size:17px;width:490px }
+.hero-text a{color:#817c82;font-weight:700;}
+.theme-2 .site-wrap{background-image: url(../img/testimonial-img.jpg);
+    background-position:center;
+    background-size:cover;background-color:red;margin:5% }
+.theme-2 .header-area{position: relative;}
+.theme-2 .footer-area{position: relative;}
+    
+
+
+
+
+
+
+
+
