@@ -1,0 +1,59 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.map{height:500px;width: 100%;margin-bottom:-150px;box-shadow:0 0 10px #ccc  }
+.section-padding-map-bg{background-color:#34394f;color:#fff;padding:50px 0;}
+.section-title{font-size:70px;font-weight:400;font-family:;margin-bottom:90px;}
+.section-descrip{font-size:20px;padding-top:18px}
+.section-descrip span{opacity:.5;}
+.location-direction{list-style:none;}
+.location-direction li h3{font-size:32px;font-weight:600;color:#cd9540} 
+.location-direction li span{font-size:14px;font-weight: 400; }
+.location-direction li p{opacity: .5;font-size:15px;text-transform:uppercase;position:relative;margin-bottom:50px }
+.location-direction li p:after{position:absolute;top:40px;left:0;background: #cd9540;width: 90px;height: 1px;content: "";   }
+.last-child:after{display:none }
+.section-padding{padding-top:100px;color: white}
+.section-information {text-align:center;}
+.section-information p{width:500px ;margin-left:310px;}
+.section-information img{width: 1200px;height: 200px}
+.section-padding{background-color:gray;margin-top:160px  }
+
+  
+
+
+
+
+
+
+
+
+
+
