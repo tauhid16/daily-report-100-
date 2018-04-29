@@ -1,0 +1,51 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding{padding: 50px 0;}
+.service-header{text-align: center;}
+.service-icone a{color:#B7B6D2;font-size:50px;}
+.service-title h1{color:#615F95;margin-top:10px}
+.service-title p{font-size:15px;width: 450px;margin-left:320px;color:#A4A4A4;margin-top:20px;}
+.single-service h2{font-size:25px;color:#615F95 ;margin-top:80px;margin-bottom:37px;margin-left:-220px  }
+.single-service p{font-size:15px ;color:#AEAEAE;text-align: left}
+.single-service-2{background: url(../img/img-1.png) }
+.service-header{position:relative;z-index: 1; }
+img.hand-absolute{position: absolute;right: -120px;bottom: 0;}
+.service-header{padding-bottom: 120px}
+
+
+
+
+
+
+
+
+
