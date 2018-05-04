@@ -1,0 +1,53 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {color:#787978;
+}
+a:hover { text-decoration: none }
+.section-padding{padding:30px}
+.section-padding h3{color:#333}
+.section-title{text-align: center;margin-bottom:40px}
+.section-title h2{padding:10px}
+.section-title h2 span{color:#26A65b}
+.section-title p{font-size: 14px}
+.single-Pricing-box{border:1px solid#ddd;padding: 20px;text-align: center;padding-right: 50px}
+.single-Pricing-box:hover{color: #26A65b}
+.single-Pricing-box h3{text-transform: uppercase }
+.Pricing-icone{font-size: 65px;margin-bottom:20px }
+.Pricing-icone:hover{color:#26A65b}
+.Pricing-icone{transition:.3s}
+.Pricing-icone img{max-width: 90px;transition: all 0.3s ease 0s}
+.Pricing-icone img:hover{opacity: .7}
+.Pricing-lists ul{margin:0;padding: 0;text-align:left ;list-style:none;margin-bottom: 40px;}
+.Pricing-lists ul li:before{font-family: fontAwesome;content: "\f00c";color:#26A65b }
+.Pricing-lists ul li.off:before{content: "\f00d";color: red; }
+.Pricing-lists ul li:hover{padding-left: 5px} 
+
+.Pricing-count  {text-transform: none}
+.bordered-btn{display:inline-block;border: 1px solid #26A65b;padding: 10px 30px;border-radius:50px}
+a.bordered-btn:hover{background:#26A65b;color: #fff;transition:.3s}
+
