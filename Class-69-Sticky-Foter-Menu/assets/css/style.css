@@ -1,0 +1,210 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Styling Pagination*/
+
+.header-area{ background: linear-gradient(rgba(0,0,0,.9), 
+    rgba(60,51,95,.9)), url(../img/tajem_master-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top:15px; }
+
+.logo{margin-left: 150px;}
+.menu{margin-right: -85px;margin-top: 11px}
+.menu ul{list-style: none;margin: 0;padding: 0;float: right;}
+          
+
+
+
+.menu ul li{display: inline-block;
+    font-size:13px;
+    padding-right:23px;
+    font-family: Roboto Black;
+    text-transform: uppercase;
+
+}
+.menu ul li a{color: #fff;}
+.menu ul li a:hover{color:#0FADAA }
+.header-content{text-align:center;
+    margin-top:90px}
+.header-content h2{font-size:32px;
+    font-family: playfairDisplay Black;
+    position: relative;
+}
+.header-area h2:before{position: absolute;
+    left:490px ;bottom:-20px;
+    background:#0FADAA;
+    content:"";
+    width:40px;
+    height: 2px; }
+.header-area p{font-size:14px;
+    width:700px;
+    margin-left:200px;
+    margin-top: 40px;
+    margin-bottom:35px;
+    font-family:Roboto Light;
+    line-height:1.9  }
+.learn-more{padding:5px 20px;
+    color: #00e0d0;
+    margin-right:50px;
+    border:1px solid #0FADAA;
+    font-family:HammersmithOne Regular;
+    font-size:16px;}
+.our-story{width:500px;margin-left:520px;
+    margin-top:-240px;}
+.content-logo img{margin-left:190px;
+    margin-top:65px}
+.our-story h2{font-size:22px;
+    color:#413d4b;
+    font-family:HammersmithOne Regular;
+    font-weight:500;}
+.our-story p{ font-family:Roboto Light;
+    font-size:14px;
+    color: #413d4b; 
+}
+
+
+
+.video-play-btn{position: absolute;
+    right:535px;
+    Top:50%;
+    height:70px;width:70px;
+    display:inline-block;
+    text-align:center;
+    color:#fff;
+    font-size:32px;
+    ;border-radius:50%;
+    padding-left:8px;
+    margin-top:190px;
+
+    border:1px solid #fff ;
+    padding-top:10px; 
+   
+}
+
+
+
+
+.video-area{background:  linear-gradient(rgba(0,0,0,.9), 
+    rgba(60,51,95,.9)),url(../img/video-img.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    margin-top:70px  
+}
+
+.video-play-btn p{font-size: 14px;width: 300px;
+    margin-left:-120px;
+    margin-top:29px;
+    font-family:Roboto Black;
+    text-transform:uppercase;
+    letter-spacing:1.9px }
+
+
+.site-footer{background: linear-gradient(rgba(0,0,0,.9), 
+    rgba(60,51,95,.9)), url(../img/footer-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 450px;
+    padding-top:15px;
+    width:1600px;
+    margin-left:-50px;
+    padding: 70px;margin-top:90px 
+    
+}
+
+.footer-conteent{}
+.footer-conteent p{font-family:Roboto Light;
+    font-size:16px;
+    margin-top:40px;
+    line-height:2.2; }
+.footer-conteent ul{list-style:none;
+    margin-left:-43px}
+.footer-conteent ul li{display:inline-block;
+    font-family:Roboto Regular;
+    font-size:14px;
+    margin-top:50px;
+    padding-right:19px
+     }
+.footer-conteent ul li a{color: #fff}
+
+.footer-conteent{margin-left:90px;
+    margin-top:30px}
+.our-studio {margin-top:40px;margin-left:80px;}
+.our-studio h2{font-family:Roboto Black;
+    text-transform:uppercase;
+    font-size:20px;
+    color:#fff;margin-bottom:59px 
+    }
+
+.our-studio p{font-family:Roboto Light;
+    font-size:16px;
+    line-height:1.1;}
+
+.our-studio a{color: #fff;}
+.our-studio span{padding-right:10px  }
+.address{margin-left:26px }
+.our-studio .fa-phone{padding-right:10px }
+
+.stay-touch h2{font-family:Roboto Black;
+    text-transform:uppercase;
+    font-size:20px;
+    color:#fff;margin-bottom:30px 
+}
+.stay-touch{margin-top:40px;margin-left:100px;}
+.social-icone ul{list-style:none;
+    margin-left:-50px; }
+.social-icone ul li{display:inline-block;
+    border:1px solid #fff;
+    border-radius:20px; 
+   padding:5px 10px;margin-left:10px;margin-top:22px}
+.social-icone ul li a{color: #fff;}
+.social-icone p{margin-top:125px;
+    margin-left:-10px;
+    font-family:Roboto Regular;
+    word-spacing:5px }
+
+.site-footer{position:fixed;bottom:0;width:110%;  }
+.site-main-wrapper{
+    position: relative;
+    z-index: 9;
+    background-color:#fff;margin-bottom: 400px }
+
+
+
+
