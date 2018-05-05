@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.rusty{background:black;color: white;
+	height: 100%;
+	width: 20%;
+	margin-left:-15px;position:fixed;}
+.logo h2{font-size:40px;
+	font-weight:700;
+	}
+.logo{position:relative;z-index: 3;
+	text-align:center;padding-top:90px}
+.logo:before{position: absolute;
+	width: 130px;
+	height: 130px;
+	background:#ffce43;
+	content:"";
+	z-index:-2;
+	opacity:.2;border-radius:50%;left: 50%;margin-left:-65px;top:70%;margin-top:-40px }
+
+.mainmenu ul{list-style:none;
+	margin:0;padding:0;
+	text-align:center;
+	margin-top:90px;}
+.mainmenu ul li a{color: white;}
+.mainmenu a span{color:#ffce43;
+	position: relative; } 
+.mainmenu a span:before{position:absolute;
+	left: 0;top:25px;
+	background:#ffce43;
+	content:"";width:50px;
+	height:3px;border-radius:40px;}
+.mainmenu ul li{font-size:18px;font-weight:600;padding: 10px}
+.social-icone a{color:white;
+	padding-right:5px ;}
+.social-icone{text-align:center;
+	padding-top:70px;}
+.copyright-area span{color: #ffce43;}
+.copyright-area{text-align:center;
+	padding-top:40px;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:600;}
+
+.background-area{background: url(../img/background-img.jpg);
+	background-size:cover;
+	background-position:center;width:80%;
+	margin-left:20%;
+	display:table;
+	height:700px;
+	display:table;
+	position:relative;
+	z-index:2; }
+.wrapper{display: tablecell;
+	vertical-align:middle;
+	color: #fff;
+	font-size: 20px;
+	padding:15%;
+	line-height: 1.9 }
+.background-area:after{position:absolute;
+	left: 0;top: 0;
+	width: 100%;
+	height: 100%;
+	background:#333;
+	content:"";
+	z-index:-1;
+	opacity:.3}
+.wrapper h1{font-size:70px;font-weight:700; }
+.wrapper span{position: relative;color: #ffce43;}
+.wrapper span:before{position:absolute;
+	right:-55px ;top:70px;
+	background:#ffce43;
+	content:"";width:40px;
+	height:5px;}
+.wrapper p{font-size:26px;font-weight:600;}
+.btn{background-color:red;color: white; 	font-size:20px;
+	font-weight: 590;
+	border-radius:50px;
+	z-index:2;opacity:.6;margin-top:130px}
+
+
+
+
+
+
+
+
+
+
+
