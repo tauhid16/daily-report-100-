@@ -1,0 +1,58 @@
+/* Base CSS */
+
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin-ext');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration:none; }
+
+.section-title{text-align: center;margin-bottom:50px;}
+.section-padding{padding: 40px 0;}
+.section-img img{width: 70%;margin-right:-10px }
+.section-img{text-align:right; }
+.social-links a{display:inline-block;height: 40px;
+    width:40px;background:#cfcfcf;text-align:center;
+    border-radius:58%;font-size:15px;line-height:40px;margin: 5px 0; color:red }
+.section-text{border: 10px solid #eeeeee;padding:20px ;position:relative;max-width: 420px;margin-top: -101px;background:#fff;height: 250px }
+.social-links{position:absolute;right:-24px;width: 40px;height: 100%;top:15px;display:table; }
+.social-links-wrapper{display: table cell;vertical-align: middle;}
+.right-side .section-text{float: right;padding-right:20px ;padding-left:40px;margin-right:-40px  }
+.right-side .social-links{right: auto;left:-24px;padding-right:20px;}
+.section-text h2{text-align: center;}
+.section-text p{font-size: 13px;}
+.section-title p{font-size:16px;width: 600px;margin-left: 240px }
+.right-side img{margin-right: 150px}
+.section-text{margin-left: 20px}
+
+
+
+
+
+
