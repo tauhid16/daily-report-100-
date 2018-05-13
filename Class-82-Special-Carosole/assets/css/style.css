@@ -1,0 +1,62 @@
+/* Base CSS */
+
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin-ext');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration:none; }
+
+
+.section-padding{padding:100px 0 }
+.single-project-item{position: relative;
+    text-align: right;}
+.project-text{width:68%;background:#f96331;color: #fff;
+    display:inline-block;text-align:left;
+    padding-top:30px;padding-left: 360px;font-size:15px;
+    font-weight:400;padding-right:58px;margin-top: 80px;height: 340px  }
+
+.project-bg-1{background-image: url(../img/background-img.jpg)}
+.project-bg{
+    background-color: #ddd;
+    background-position:center;
+   height: 320px;width: 700px;position: absolute;
+    background-size:cover; border: 15px solid #fff;margin-left:-45px;left: 0;top:0;  
+   
+}
+.project-text a{color: #fff;}
+.feature-project-wrap{position: relative;}
+.feature-project-wrap h2{position: absolute;right: 0;width: 35%;font-weight: 300;font-size: 30px;top: -10px}
+.feature-project-wrap h2 span{font-size:50px; }
+
+
+
+
+
+
